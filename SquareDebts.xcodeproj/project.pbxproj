@@ -8,13 +8,110 @@
 
 /* Begin PBXBuildFile section */
 		B0AE949E2157A34D003FB9B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE949D2157A34D003FB9B8 /* AppDelegate.swift */; };
-		B0AE94A02157A34D003FB9B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE949F2157A34D003FB9B8 /* ViewController.swift */; };
 		B0AE94A32157A34D003FB9B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0AE94A12157A34D003FB9B8 /* Main.storyboard */; };
-		B0AE94A62157A34D003FB9B8 /* SquareDebts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B0AE94A42157A34D003FB9B8 /* SquareDebts.xcdatamodeld */; };
 		B0AE94A82157A34F003FB9B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0AE94A72157A34F003FB9B8 /* Assets.xcassets */; };
 		B0AE94AB2157A34F003FB9B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0AE94A92157A34F003FB9B8 /* LaunchScreen.storyboard */; };
 		B0AE94B62157A34F003FB9B8 /* SquareDebtsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE94B52157A34F003FB9B8 /* SquareDebtsTests.swift */; };
 		B0AE94C12157A34F003FB9B8 /* SquareDebtsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE94C02157A34F003FB9B8 /* SquareDebtsUITests.swift */; };
+		B0AE94D32157E56D003FB9B8 /* SquareDebts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B0AE94D12157E56C003FB9B8 /* SquareDebts.xcdatamodeld */; };
+		B0AE94D42157E56D003FB9B8 /* SquareDebts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B0AE94D12157E56C003FB9B8 /* SquareDebts.xcdatamodeld */; };
+		B0AE94D52157E56D003FB9B8 /* SquareDebts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B0AE94D12157E56C003FB9B8 /* SquareDebts.xcdatamodeld */; };
+		B0AE94ED2157E8BD003FB9B8 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE94DD2157E8BD003FB9B8 /* Alert.swift */; };
+		B0AE94EE2157E8BD003FB9B8 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE94DD2157E8BD003FB9B8 /* Alert.swift */; };
+		B0AE94EF2157E8BD003FB9B8 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE94DD2157E8BD003FB9B8 /* Alert.swift */; };
+		B0AE94F02157E8BD003FB9B8 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE94DE2157E8BD003FB9B8 /* Preferences.swift */; };
+		B0AE94F12157E8BD003FB9B8 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE94DE2157E8BD003FB9B8 /* Preferences.swift */; };
+		B0AE94F22157E8BD003FB9B8 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE94DE2157E8BD003FB9B8 /* Preferences.swift */; };
+		B0AE94F32157E8BD003FB9B8 /* UIImage+ImageEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE94DF2157E8BD003FB9B8 /* UIImage+ImageEffects.swift */; };
+		B0AE94F42157E8BD003FB9B8 /* UIImage+ImageEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE94DF2157E8BD003FB9B8 /* UIImage+ImageEffects.swift */; };
+		B0AE94F52157E8BD003FB9B8 /* UIImage+ImageEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE94DF2157E8BD003FB9B8 /* UIImage+ImageEffects.swift */; };
+		B0AE94F62157E8BD003FB9B8 /* KeyboardSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE94E02157E8BD003FB9B8 /* KeyboardSpy.swift */; };
+		B0AE94F72157E8BD003FB9B8 /* KeyboardSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE94E02157E8BD003FB9B8 /* KeyboardSpy.swift */; };
+		B0AE94F82157E8BD003FB9B8 /* KeyboardSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE94E02157E8BD003FB9B8 /* KeyboardSpy.swift */; };
+		B0AE94F92157E8BD003FB9B8 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE94E12157E8BD003FB9B8 /* Logger.swift */; };
+		B0AE94FA2157E8BD003FB9B8 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE94E12157E8BD003FB9B8 /* Logger.swift */; };
+		B0AE94FB2157E8BD003FB9B8 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE94E12157E8BD003FB9B8 /* Logger.swift */; };
+		B0AE94FC2157E8BD003FB9B8 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE94E22157E8BD003FB9B8 /* Enums.swift */; };
+		B0AE94FD2157E8BD003FB9B8 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE94E22157E8BD003FB9B8 /* Enums.swift */; };
+		B0AE94FE2157E8BD003FB9B8 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE94E22157E8BD003FB9B8 /* Enums.swift */; };
+		B0AE94FF2157E8BD003FB9B8 /* DateHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE94E32157E8BD003FB9B8 /* DateHandler.swift */; };
+		B0AE95002157E8BD003FB9B8 /* DateHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE94E32157E8BD003FB9B8 /* DateHandler.swift */; };
+		B0AE95012157E8BD003FB9B8 /* DateHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE94E32157E8BD003FB9B8 /* DateHandler.swift */; };
+		B0AE95022157E8BD003FB9B8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE94E42157E8BD003FB9B8 /* Extensions.swift */; };
+		B0AE95032157E8BD003FB9B8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE94E42157E8BD003FB9B8 /* Extensions.swift */; };
+		B0AE95042157E8BD003FB9B8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE94E42157E8BD003FB9B8 /* Extensions.swift */; };
+		B0AE95052157E8BD003FB9B8 /* SDError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE94E52157E8BD003FB9B8 /* SDError.swift */; };
+		B0AE95062157E8BD003FB9B8 /* SDError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE94E52157E8BD003FB9B8 /* SDError.swift */; };
+		B0AE95072157E8BD003FB9B8 /* SDError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE94E52157E8BD003FB9B8 /* SDError.swift */; };
+		B0AE95082157E8BD003FB9B8 /* AppContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE94E62157E8BD003FB9B8 /* AppContext.swift */; };
+		B0AE95092157E8BD003FB9B8 /* AppContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE94E62157E8BD003FB9B8 /* AppContext.swift */; };
+		B0AE950A2157E8BD003FB9B8 /* AppContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE94E62157E8BD003FB9B8 /* AppContext.swift */; };
+		B0AE950B2157E8BD003FB9B8 /* MarginPercent.m in Sources */ = {isa = PBXBuildFile; fileRef = B0AE94E82157E8BD003FB9B8 /* MarginPercent.m */; };
+		B0AE950C2157E8BD003FB9B8 /* MarginPercent.m in Sources */ = {isa = PBXBuildFile; fileRef = B0AE94E82157E8BD003FB9B8 /* MarginPercent.m */; };
+		B0AE950D2157E8BD003FB9B8 /* MarginPercent.m in Sources */ = {isa = PBXBuildFile; fileRef = B0AE94E82157E8BD003FB9B8 /* MarginPercent.m */; };
+		B0AE951C2157E8CB003FB9B8 /* Expand.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE950F2157E8CB003FB9B8 /* Expand.swift */; };
+		B0AE951D2157E8CB003FB9B8 /* Expand.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE950F2157E8CB003FB9B8 /* Expand.swift */; };
+		B0AE951E2157E8CB003FB9B8 /* Expand.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE950F2157E8CB003FB9B8 /* Expand.swift */; };
+		B0AE951F2157E8CB003FB9B8 /* Highlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95102157E8CB003FB9B8 /* Highlight.swift */; };
+		B0AE95202157E8CB003FB9B8 /* Highlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95102157E8CB003FB9B8 /* Highlight.swift */; };
+		B0AE95212157E8CB003FB9B8 /* Highlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95102157E8CB003FB9B8 /* Highlight.swift */; };
+		B0AE95222157E8CB003FB9B8 /* Flash.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95112157E8CB003FB9B8 /* Flash.swift */; };
+		B0AE95232157E8CB003FB9B8 /* Flash.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95112157E8CB003FB9B8 /* Flash.swift */; };
+		B0AE95242157E8CB003FB9B8 /* Flash.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95112157E8CB003FB9B8 /* Flash.swift */; };
+		B0AE95252157E8CB003FB9B8 /* Jitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95122157E8CB003FB9B8 /* Jitter.swift */; };
+		B0AE95262157E8CB003FB9B8 /* Jitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95122157E8CB003FB9B8 /* Jitter.swift */; };
+		B0AE95272157E8CB003FB9B8 /* Jitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95122157E8CB003FB9B8 /* Jitter.swift */; };
+		B0AE95282157E8CB003FB9B8 /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95132157E8CB003FB9B8 /* Slide.swift */; };
+		B0AE95292157E8CB003FB9B8 /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95132157E8CB003FB9B8 /* Slide.swift */; };
+		B0AE952A2157E8CB003FB9B8 /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95132157E8CB003FB9B8 /* Slide.swift */; };
+		B0AE952B2157E8CB003FB9B8 /* Push.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95142157E8CB003FB9B8 /* Push.swift */; };
+		B0AE952C2157E8CB003FB9B8 /* Push.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95142157E8CB003FB9B8 /* Push.swift */; };
+		B0AE952D2157E8CB003FB9B8 /* Push.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95142157E8CB003FB9B8 /* Push.swift */; };
+		B0AE952E2157E8CB003FB9B8 /* Jump.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95152157E8CB003FB9B8 /* Jump.swift */; };
+		B0AE952F2157E8CB003FB9B8 /* Jump.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95152157E8CB003FB9B8 /* Jump.swift */; };
+		B0AE95302157E8CB003FB9B8 /* Jump.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95152157E8CB003FB9B8 /* Jump.swift */; };
+		B0AE95312157E8CB003FB9B8 /* Pop.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95162157E8CB003FB9B8 /* Pop.swift */; };
+		B0AE95322157E8CB003FB9B8 /* Pop.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95162157E8CB003FB9B8 /* Pop.swift */; };
+		B0AE95332157E8CB003FB9B8 /* Pop.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95162157E8CB003FB9B8 /* Pop.swift */; };
+		B0AE95342157E8CB003FB9B8 /* Fade.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95172157E8CB003FB9B8 /* Fade.swift */; };
+		B0AE95352157E8CB003FB9B8 /* Fade.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95172157E8CB003FB9B8 /* Fade.swift */; };
+		B0AE95362157E8CB003FB9B8 /* Fade.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95172157E8CB003FB9B8 /* Fade.swift */; };
+		B0AE95372157E8CB003FB9B8 /* SDCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95192157E8CB003FB9B8 /* SDCardView.swift */; };
+		B0AE95382157E8CB003FB9B8 /* SDCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95192157E8CB003FB9B8 /* SDCardView.swift */; };
+		B0AE95392157E8CB003FB9B8 /* SDCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95192157E8CB003FB9B8 /* SDCardView.swift */; };
+		B0AE953A2157E8CB003FB9B8 /* SDButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE951A2157E8CB003FB9B8 /* SDButton.swift */; };
+		B0AE953B2157E8CB003FB9B8 /* SDButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE951A2157E8CB003FB9B8 /* SDButton.swift */; };
+		B0AE953C2157E8CB003FB9B8 /* SDButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE951A2157E8CB003FB9B8 /* SDButton.swift */; };
+		B0AE953D2157E8CB003FB9B8 /* SDBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE951B2157E8CB003FB9B8 /* SDBarChart.swift */; };
+		B0AE953E2157E8CB003FB9B8 /* SDBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE951B2157E8CB003FB9B8 /* SDBarChart.swift */; };
+		B0AE953F2157E8CB003FB9B8 /* SDBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE951B2157E8CB003FB9B8 /* SDBarChart.swift */; };
+		B0AE95462157E8F0003FB9B8 /* Identifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95412157E8F0003FB9B8 /* Identifiers.swift */; };
+		B0AE95472157E8F0003FB9B8 /* Identifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95412157E8F0003FB9B8 /* Identifiers.swift */; };
+		B0AE95482157E8F0003FB9B8 /* Identifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95412157E8F0003FB9B8 /* Identifiers.swift */; };
+		B0AE95492157E8F0003FB9B8 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95422157E8F0003FB9B8 /* Fonts.swift */; };
+		B0AE954A2157E8F0003FB9B8 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95422157E8F0003FB9B8 /* Fonts.swift */; };
+		B0AE954B2157E8F0003FB9B8 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95422157E8F0003FB9B8 /* Fonts.swift */; };
+		B0AE954C2157E8F0003FB9B8 /* Texts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95432157E8F0003FB9B8 /* Texts.swift */; };
+		B0AE954D2157E8F0003FB9B8 /* Texts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95432157E8F0003FB9B8 /* Texts.swift */; };
+		B0AE954E2157E8F0003FB9B8 /* Texts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95432157E8F0003FB9B8 /* Texts.swift */; };
+		B0AE954F2157E8F0003FB9B8 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95442157E8F0003FB9B8 /* AppConstants.swift */; };
+		B0AE95502157E8F0003FB9B8 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95442157E8F0003FB9B8 /* AppConstants.swift */; };
+		B0AE95512157E8F0003FB9B8 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95442157E8F0003FB9B8 /* AppConstants.swift */; };
+		B0AE95522157E8F0003FB9B8 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95452157E8F0003FB9B8 /* Colors.swift */; };
+		B0AE95532157E8F0003FB9B8 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95452157E8F0003FB9B8 /* Colors.swift */; };
+		B0AE95542157E8F0003FB9B8 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95452157E8F0003FB9B8 /* Colors.swift */; };
+		B0AE95562157E91E003FB9B8 /* Serializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95552157E91E003FB9B8 /* Serializable.swift */; };
+		B0AE95572157E91E003FB9B8 /* Serializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95552157E91E003FB9B8 /* Serializable.swift */; };
+		B0AE95582157E91E003FB9B8 /* Serializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95552157E91E003FB9B8 /* Serializable.swift */; };
+		B0AE955A2157EB18003FB9B8 /* SDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95592157EB18003FB9B8 /* SDViewController.swift */; };
+		B0AE955B2157EB18003FB9B8 /* SDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95592157EB18003FB9B8 /* SDViewController.swift */; };
+		B0AE955C2157EB18003FB9B8 /* SDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95592157EB18003FB9B8 /* SDViewController.swift */; };
+		B0AE95642157F30B003FB9B8 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95632157F30B003FB9B8 /* SplashViewController.swift */; };
+		B0AE95652157F30B003FB9B8 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95632157F30B003FB9B8 /* SplashViewController.swift */; };
+		B0AE95662157F30B003FB9B8 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95632157F30B003FB9B8 /* SplashViewController.swift */; };
+		B0AE956A2157F34D003FB9B8 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95692157F34D003FB9B8 /* MainTabBarViewController.swift */; };
+		B0AE956B2157F34D003FB9B8 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95692157F34D003FB9B8 /* MainTabBarViewController.swift */; };
+		B0AE956C2157F34D003FB9B8 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE95692157F34D003FB9B8 /* MainTabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +134,7 @@
 /* Begin PBXFileReference section */
 		B0AE949A2157A34D003FB9B8 /* SquareDebts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SquareDebts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0AE949D2157A34D003FB9B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B0AE949F2157A34D003FB9B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B0AE94A22157A34D003FB9B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B0AE94A52157A34D003FB9B8 /* SquareDebts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SquareDebts.xcdatamodel; sourceTree = "<group>"; };
 		B0AE94A72157A34F003FB9B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0AE94AA2157A34F003FB9B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0AE94AC2157A34F003FB9B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +144,40 @@
 		B0AE94BC2157A34F003FB9B8 /* SquareDebtsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquareDebtsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0AE94C02157A34F003FB9B8 /* SquareDebtsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareDebtsUITests.swift; sourceTree = "<group>"; };
 		B0AE94C22157A34F003FB9B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0AE94D22157E56C003FB9B8 /* SquareDebts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SquareDebts.xcdatamodel; sourceTree = "<group>"; };
+		B0AE94DD2157E8BD003FB9B8 /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		B0AE94DE2157E8BD003FB9B8 /* Preferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		B0AE94DF2157E8BD003FB9B8 /* UIImage+ImageEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+ImageEffects.swift"; sourceTree = "<group>"; };
+		B0AE94E02157E8BD003FB9B8 /* KeyboardSpy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardSpy.swift; sourceTree = "<group>"; };
+		B0AE94E12157E8BD003FB9B8 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		B0AE94E22157E8BD003FB9B8 /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		B0AE94E32157E8BD003FB9B8 /* DateHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateHandler.swift; sourceTree = "<group>"; };
+		B0AE94E42157E8BD003FB9B8 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B0AE94E52157E8BD003FB9B8 /* SDError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDError.swift; sourceTree = "<group>"; };
+		B0AE94E62157E8BD003FB9B8 /* AppContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppContext.swift; sourceTree = "<group>"; };
+		B0AE94E82157E8BD003FB9B8 /* MarginPercent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarginPercent.m; sourceTree = "<group>"; };
+		B0AE94E92157E8BD003FB9B8 /* MarginPercent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarginPercent.h; sourceTree = "<group>"; };
+		B0AE950F2157E8CB003FB9B8 /* Expand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Expand.swift; sourceTree = "<group>"; };
+		B0AE95102157E8CB003FB9B8 /* Highlight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Highlight.swift; sourceTree = "<group>"; };
+		B0AE95112157E8CB003FB9B8 /* Flash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flash.swift; sourceTree = "<group>"; };
+		B0AE95122157E8CB003FB9B8 /* Jitter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jitter.swift; sourceTree = "<group>"; };
+		B0AE95132157E8CB003FB9B8 /* Slide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
+		B0AE95142157E8CB003FB9B8 /* Push.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Push.swift; sourceTree = "<group>"; };
+		B0AE95152157E8CB003FB9B8 /* Jump.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jump.swift; sourceTree = "<group>"; };
+		B0AE95162157E8CB003FB9B8 /* Pop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pop.swift; sourceTree = "<group>"; };
+		B0AE95172157E8CB003FB9B8 /* Fade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fade.swift; sourceTree = "<group>"; };
+		B0AE95192157E8CB003FB9B8 /* SDCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDCardView.swift; sourceTree = "<group>"; };
+		B0AE951A2157E8CB003FB9B8 /* SDButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDButton.swift; sourceTree = "<group>"; };
+		B0AE951B2157E8CB003FB9B8 /* SDBarChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDBarChart.swift; sourceTree = "<group>"; };
+		B0AE95412157E8F0003FB9B8 /* Identifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Identifiers.swift; sourceTree = "<group>"; };
+		B0AE95422157E8F0003FB9B8 /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		B0AE95432157E8F0003FB9B8 /* Texts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Texts.swift; sourceTree = "<group>"; };
+		B0AE95442157E8F0003FB9B8 /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		B0AE95452157E8F0003FB9B8 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		B0AE95552157E91E003FB9B8 /* Serializable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Serializable.swift; sourceTree = "<group>"; };
+		B0AE95592157EB18003FB9B8 /* SDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDViewController.swift; sourceTree = "<group>"; };
+		B0AE95632157F30B003FB9B8 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		B0AE95692157F34D003FB9B8 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +228,14 @@
 		B0AE949C2157A34D003FB9B8 /* SquareDebts */ = {
 			isa = PBXGroup;
 			children = (
-				B0AE949D2157A34D003FB9B8 /* AppDelegate.swift */,
-				B0AE949F2157A34D003FB9B8 /* ViewController.swift */,
-				B0AE94A12157A34D003FB9B8 /* Main.storyboard */,
-				B0AE94A72157A34F003FB9B8 /* Assets.xcassets */,
-				B0AE94A92157A34F003FB9B8 /* LaunchScreen.storyboard */,
-				B0AE94AC2157A34F003FB9B8 /* Info.plist */,
-				B0AE94A42157A34D003FB9B8 /* SquareDebts.xcdatamodeld */,
+				B0AE94CE2157A5BD003FB9B8 /* Application */,
+				B0AE94D92157E5C7003FB9B8 /* Modules */,
+				B0AE94CF2157A622003FB9B8 /* Resources */,
+				B0AE94D02157E56C003FB9B8 /* CoreData */,
+				B0AE94DB2157E8BD003FB9B8 /* Helpers */,
+				B0AE95402157E8F0003FB9B8 /* Constants */,
+				B0AE950E2157E8CB003FB9B8 /* SDAnimations */,
+				B0AE95182157E8CB003FB9B8 /* SDViews */,
 			);
 			path = SquareDebts;
 			sourceTree = "<group>";
@@ -128,6 +258,149 @@
 			path = SquareDebtsUITests;
 			sourceTree = "<group>";
 		};
+		B0AE94CE2157A5BD003FB9B8 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				B0AE94AC2157A34F003FB9B8 /* Info.plist */,
+				B0AE949D2157A34D003FB9B8 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		B0AE94CF2157A622003FB9B8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B0AE94D82157E5A0003FB9B8 /* Animations */,
+				B0AE94D72157E592003FB9B8 /* Images */,
+				B0AE94D62157E589003FB9B8 /* Storyboards */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B0AE94D02157E56C003FB9B8 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				B0AE94D12157E56C003FB9B8 /* SquareDebts.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		B0AE94D62157E589003FB9B8 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B0AE94A92157A34F003FB9B8 /* LaunchScreen.storyboard */,
+				B0AE94A12157A34D003FB9B8 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		B0AE94D72157E592003FB9B8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B0AE94A72157A34F003FB9B8 /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		B0AE94D82157E5A0003FB9B8 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		B0AE94D92157E5C7003FB9B8 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				B0AE95622157F2F2003FB9B8 /* Splash */,
+				B0AE95682157F31C003FB9B8 /* Dashboard */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		B0AE94DB2157E8BD003FB9B8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B0AE95552157E91E003FB9B8 /* Serializable.swift */,
+				B0AE94DD2157E8BD003FB9B8 /* Alert.swift */,
+				B0AE94DE2157E8BD003FB9B8 /* Preferences.swift */,
+				B0AE94DF2157E8BD003FB9B8 /* UIImage+ImageEffects.swift */,
+				B0AE94E02157E8BD003FB9B8 /* KeyboardSpy.swift */,
+				B0AE94E12157E8BD003FB9B8 /* Logger.swift */,
+				B0AE94E22157E8BD003FB9B8 /* Enums.swift */,
+				B0AE94E32157E8BD003FB9B8 /* DateHandler.swift */,
+				B0AE94E42157E8BD003FB9B8 /* Extensions.swift */,
+				B0AE94E52157E8BD003FB9B8 /* SDError.swift */,
+				B0AE94E62157E8BD003FB9B8 /* AppContext.swift */,
+				B0AE94E72157E8BD003FB9B8 /* CustomMargin */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B0AE94E72157E8BD003FB9B8 /* CustomMargin */ = {
+			isa = PBXGroup;
+			children = (
+				B0AE94E82157E8BD003FB9B8 /* MarginPercent.m */,
+				B0AE94E92157E8BD003FB9B8 /* MarginPercent.h */,
+			);
+			path = CustomMargin;
+			sourceTree = "<group>";
+		};
+		B0AE950E2157E8CB003FB9B8 /* SDAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				B0AE950F2157E8CB003FB9B8 /* Expand.swift */,
+				B0AE95102157E8CB003FB9B8 /* Highlight.swift */,
+				B0AE95112157E8CB003FB9B8 /* Flash.swift */,
+				B0AE95122157E8CB003FB9B8 /* Jitter.swift */,
+				B0AE95132157E8CB003FB9B8 /* Slide.swift */,
+				B0AE95142157E8CB003FB9B8 /* Push.swift */,
+				B0AE95152157E8CB003FB9B8 /* Jump.swift */,
+				B0AE95162157E8CB003FB9B8 /* Pop.swift */,
+				B0AE95172157E8CB003FB9B8 /* Fade.swift */,
+			);
+			path = SDAnimations;
+			sourceTree = "<group>";
+		};
+		B0AE95182157E8CB003FB9B8 /* SDViews */ = {
+			isa = PBXGroup;
+			children = (
+				B0AE95192157E8CB003FB9B8 /* SDCardView.swift */,
+				B0AE951A2157E8CB003FB9B8 /* SDButton.swift */,
+				B0AE951B2157E8CB003FB9B8 /* SDBarChart.swift */,
+				B0AE95592157EB18003FB9B8 /* SDViewController.swift */,
+			);
+			path = SDViews;
+			sourceTree = "<group>";
+		};
+		B0AE95402157E8F0003FB9B8 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				B0AE95412157E8F0003FB9B8 /* Identifiers.swift */,
+				B0AE95422157E8F0003FB9B8 /* Fonts.swift */,
+				B0AE95432157E8F0003FB9B8 /* Texts.swift */,
+				B0AE95442157E8F0003FB9B8 /* AppConstants.swift */,
+				B0AE95452157E8F0003FB9B8 /* Colors.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		B0AE95622157F2F2003FB9B8 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				B0AE95632157F30B003FB9B8 /* SplashViewController.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		B0AE95682157F31C003FB9B8 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				B0AE95692157F34D003FB9B8 /* MainTabBarViewController.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +408,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0AE94C52157A34F003FB9B8 /* Build configuration list for PBXNativeTarget "SquareDebts" */;
 			buildPhases = (
+				B0AE955D2157EF4A003FB9B8 /* Swiftlint */,
 				B0AE94962157A34C003FB9B8 /* Sources */,
 				B0AE94972157A34C003FB9B8 /* Frameworks */,
 				B0AE94982157A34C003FB9B8 /* Resources */,
@@ -254,14 +528,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B0AE955D2157EF4A003FB9B8 /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B0AE94962157A34C003FB9B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0AE94A62157A34D003FB9B8 /* SquareDebts.xcdatamodeld in Sources */,
-				B0AE94A02157A34D003FB9B8 /* ViewController.swift in Sources */,
+				B0AE95492157E8F0003FB9B8 /* Fonts.swift in Sources */,
+				B0AE94FF2157E8BD003FB9B8 /* DateHandler.swift in Sources */,
+				B0AE952B2157E8CB003FB9B8 /* Push.swift in Sources */,
+				B0AE956A2157F34D003FB9B8 /* MainTabBarViewController.swift in Sources */,
+				B0AE94F62157E8BD003FB9B8 /* KeyboardSpy.swift in Sources */,
+				B0AE95562157E91E003FB9B8 /* Serializable.swift in Sources */,
+				B0AE951F2157E8CB003FB9B8 /* Highlight.swift in Sources */,
+				B0AE95522157E8F0003FB9B8 /* Colors.swift in Sources */,
+				B0AE955A2157EB18003FB9B8 /* SDViewController.swift in Sources */,
+				B0AE95462157E8F0003FB9B8 /* Identifiers.swift in Sources */,
 				B0AE949E2157A34D003FB9B8 /* AppDelegate.swift in Sources */,
+				B0AE94F32157E8BD003FB9B8 /* UIImage+ImageEffects.swift in Sources */,
+				B0AE95342157E8CB003FB9B8 /* Fade.swift in Sources */,
+				B0AE951C2157E8CB003FB9B8 /* Expand.swift in Sources */,
+				B0AE94ED2157E8BD003FB9B8 /* Alert.swift in Sources */,
+				B0AE94F02157E8BD003FB9B8 /* Preferences.swift in Sources */,
+				B0AE94D32157E56D003FB9B8 /* SquareDebts.xcdatamodeld in Sources */,
+				B0AE95222157E8CB003FB9B8 /* Flash.swift in Sources */,
+				B0AE94FC2157E8BD003FB9B8 /* Enums.swift in Sources */,
+				B0AE954C2157E8F0003FB9B8 /* Texts.swift in Sources */,
+				B0AE95082157E8BD003FB9B8 /* AppContext.swift in Sources */,
+				B0AE95052157E8BD003FB9B8 /* SDError.swift in Sources */,
+				B0AE95642157F30B003FB9B8 /* SplashViewController.swift in Sources */,
+				B0AE954F2157E8F0003FB9B8 /* AppConstants.swift in Sources */,
+				B0AE95312157E8CB003FB9B8 /* Pop.swift in Sources */,
+				B0AE950B2157E8BD003FB9B8 /* MarginPercent.m in Sources */,
+				B0AE953A2157E8CB003FB9B8 /* SDButton.swift in Sources */,
+				B0AE95252157E8CB003FB9B8 /* Jitter.swift in Sources */,
+				B0AE95282157E8CB003FB9B8 /* Slide.swift in Sources */,
+				B0AE953D2157E8CB003FB9B8 /* SDBarChart.swift in Sources */,
+				B0AE952E2157E8CB003FB9B8 /* Jump.swift in Sources */,
+				B0AE95022157E8BD003FB9B8 /* Extensions.swift in Sources */,
+				B0AE94F92157E8BD003FB9B8 /* Logger.swift in Sources */,
+				B0AE95372157E8CB003FB9B8 /* SDCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +595,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0AE954A2157E8F0003FB9B8 /* Fonts.swift in Sources */,
+				B0AE95002157E8BD003FB9B8 /* DateHandler.swift in Sources */,
+				B0AE952C2157E8CB003FB9B8 /* Push.swift in Sources */,
+				B0AE956B2157F34D003FB9B8 /* MainTabBarViewController.swift in Sources */,
+				B0AE94F72157E8BD003FB9B8 /* KeyboardSpy.swift in Sources */,
+				B0AE95572157E91E003FB9B8 /* Serializable.swift in Sources */,
+				B0AE95202157E8CB003FB9B8 /* Highlight.swift in Sources */,
+				B0AE95532157E8F0003FB9B8 /* Colors.swift in Sources */,
+				B0AE955B2157EB18003FB9B8 /* SDViewController.swift in Sources */,
+				B0AE95472157E8F0003FB9B8 /* Identifiers.swift in Sources */,
 				B0AE94B62157A34F003FB9B8 /* SquareDebtsTests.swift in Sources */,
+				B0AE94F42157E8BD003FB9B8 /* UIImage+ImageEffects.swift in Sources */,
+				B0AE95352157E8CB003FB9B8 /* Fade.swift in Sources */,
+				B0AE951D2157E8CB003FB9B8 /* Expand.swift in Sources */,
+				B0AE94EE2157E8BD003FB9B8 /* Alert.swift in Sources */,
+				B0AE94F12157E8BD003FB9B8 /* Preferences.swift in Sources */,
+				B0AE94D42157E56D003FB9B8 /* SquareDebts.xcdatamodeld in Sources */,
+				B0AE95232157E8CB003FB9B8 /* Flash.swift in Sources */,
+				B0AE94FD2157E8BD003FB9B8 /* Enums.swift in Sources */,
+				B0AE954D2157E8F0003FB9B8 /* Texts.swift in Sources */,
+				B0AE95092157E8BD003FB9B8 /* AppContext.swift in Sources */,
+				B0AE95062157E8BD003FB9B8 /* SDError.swift in Sources */,
+				B0AE95652157F30B003FB9B8 /* SplashViewController.swift in Sources */,
+				B0AE95502157E8F0003FB9B8 /* AppConstants.swift in Sources */,
+				B0AE95322157E8CB003FB9B8 /* Pop.swift in Sources */,
+				B0AE950C2157E8BD003FB9B8 /* MarginPercent.m in Sources */,
+				B0AE953B2157E8CB003FB9B8 /* SDButton.swift in Sources */,
+				B0AE95262157E8CB003FB9B8 /* Jitter.swift in Sources */,
+				B0AE95292157E8CB003FB9B8 /* Slide.swift in Sources */,
+				B0AE953E2157E8CB003FB9B8 /* SDBarChart.swift in Sources */,
+				B0AE952F2157E8CB003FB9B8 /* Jump.swift in Sources */,
+				B0AE95032157E8BD003FB9B8 /* Extensions.swift in Sources */,
+				B0AE94FA2157E8BD003FB9B8 /* Logger.swift in Sources */,
+				B0AE95382157E8CB003FB9B8 /* SDCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +636,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0AE954B2157E8F0003FB9B8 /* Fonts.swift in Sources */,
+				B0AE95012157E8BD003FB9B8 /* DateHandler.swift in Sources */,
+				B0AE952D2157E8CB003FB9B8 /* Push.swift in Sources */,
+				B0AE956C2157F34D003FB9B8 /* MainTabBarViewController.swift in Sources */,
+				B0AE94F82157E8BD003FB9B8 /* KeyboardSpy.swift in Sources */,
+				B0AE95582157E91E003FB9B8 /* Serializable.swift in Sources */,
+				B0AE95212157E8CB003FB9B8 /* Highlight.swift in Sources */,
+				B0AE95542157E8F0003FB9B8 /* Colors.swift in Sources */,
+				B0AE955C2157EB18003FB9B8 /* SDViewController.swift in Sources */,
+				B0AE95482157E8F0003FB9B8 /* Identifiers.swift in Sources */,
 				B0AE94C12157A34F003FB9B8 /* SquareDebtsUITests.swift in Sources */,
+				B0AE94F52157E8BD003FB9B8 /* UIImage+ImageEffects.swift in Sources */,
+				B0AE95362157E8CB003FB9B8 /* Fade.swift in Sources */,
+				B0AE951E2157E8CB003FB9B8 /* Expand.swift in Sources */,
+				B0AE94EF2157E8BD003FB9B8 /* Alert.swift in Sources */,
+				B0AE94F22157E8BD003FB9B8 /* Preferences.swift in Sources */,
+				B0AE94D52157E56D003FB9B8 /* SquareDebts.xcdatamodeld in Sources */,
+				B0AE95242157E8CB003FB9B8 /* Flash.swift in Sources */,
+				B0AE94FE2157E8BD003FB9B8 /* Enums.swift in Sources */,
+				B0AE954E2157E8F0003FB9B8 /* Texts.swift in Sources */,
+				B0AE950A2157E8BD003FB9B8 /* AppContext.swift in Sources */,
+				B0AE95072157E8BD003FB9B8 /* SDError.swift in Sources */,
+				B0AE95662157F30B003FB9B8 /* SplashViewController.swift in Sources */,
+				B0AE95512157E8F0003FB9B8 /* AppConstants.swift in Sources */,
+				B0AE95332157E8CB003FB9B8 /* Pop.swift in Sources */,
+				B0AE950D2157E8BD003FB9B8 /* MarginPercent.m in Sources */,
+				B0AE953C2157E8CB003FB9B8 /* SDButton.swift in Sources */,
+				B0AE95272157E8CB003FB9B8 /* Jitter.swift in Sources */,
+				B0AE952A2157E8CB003FB9B8 /* Slide.swift in Sources */,
+				B0AE953F2157E8CB003FB9B8 /* SDBarChart.swift in Sources */,
+				B0AE95302157E8CB003FB9B8 /* Jump.swift in Sources */,
+				B0AE95042157E8BD003FB9B8 /* Extensions.swift in Sources */,
+				B0AE94FB2157E8BD003FB9B8 /* Logger.swift in Sources */,
+				B0AE95392157E8CB003FB9B8 /* SDCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,7 +828,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9DENJD3M83;
-				INFOPLIST_FILE = SquareDebts/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SquareDebts/Application/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -444,7 +837,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.densigns.SquareDebts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -454,7 +847,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9DENJD3M83;
-				INFOPLIST_FILE = SquareDebts/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SquareDebts/Application/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,7 +856,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.densigns.SquareDebts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -590,12 +984,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		B0AE94A42157A34D003FB9B8 /* SquareDebts.xcdatamodeld */ = {
+		B0AE94D12157E56C003FB9B8 /* SquareDebts.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				B0AE94A52157A34D003FB9B8 /* SquareDebts.xcdatamodel */,
+				B0AE94D22157E56C003FB9B8 /* SquareDebts.xcdatamodel */,
 			);
-			currentVersion = B0AE94A52157A34D003FB9B8 /* SquareDebts.xcdatamodel */;
+			currentVersion = B0AE94D22157E56C003FB9B8 /* SquareDebts.xcdatamodel */;
 			path = SquareDebts.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
